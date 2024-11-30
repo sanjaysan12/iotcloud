@@ -1,0 +1,36 @@
+<!--
+=========================================================
+* Soft UI Dashboard Tailwind - v1.0.5
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-tailwind
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html>
+    {% include "head.html" %}
+    {% if session.authenticated %}
+    {% include "body.html" %}
+    <link href="/css/perfect-scrollbar.css" type="text/css" rel="stylesheet">
+    <script src="/js/chart-2.js" type="text/javascript" async="true"></script>
+    <script src="/js/perfect-scrollbar.js" type="text/javascript" async="true"></script>
+    <script src="/js/tooltips.js" type="text/javascript" async="true"></script>
+    <script src="/js/chart-1.js" type="text/javascript" async="true"></script>
+    <link href="/css/tooltips.css" type="text/css" rel="stylesheet">
+    <script src="/js/dropdown.js" type="text/javascript" async="true"></script>
+    <script src="/js/fixed-plugin.js" type="text/javascript" async="true"></script>
+    <script src="/js/sidenav-burger.js" type="text/javascript" async="true"></script>
+    <script src="/js/navbar-sticky.js" type="text/javascript" async="true"></script>
+    
+    {% include "script.html" %}
+    {% else %}
+    {% include "signinbody.html" %}
+    {% endif %}
+    
+</html>

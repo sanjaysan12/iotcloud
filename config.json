@@ -1,0 +1,6 @@
+{
+    "mongodb_connection_string": "mongodb://Sanjay:Sanjay12%40@mongodb.selfmade.ninja:27017/?authSource=users",
+    "mongodb_database": "Sanjay_Test",
+    "secret_key": "Vr4d5lvRh5j6FJ5Cmbzm"
+
+}
